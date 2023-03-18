@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ideal.qa.testcases.HomePageTest" time="0.576" tests="9" errors="0" skipped="8" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Shyla Ramakrishnappa\eclipse-workspace\IdealInd\target\test-classes;C:\Users\Shyla Ramakrishnappa\eclipse-workspace\IdealInd\target\classes;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.0\selenium-java-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.0\selenium-edge-driver-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.0\selenium-firefox-driver-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.0\selenium-ie-driver-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.0\selenium-opera-driver-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.0\selenium-remote-driver-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.0\selenium-safari-driver-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.0\selenium-support-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\relevantcodes\extentreports\2.10\extentreports-2.10.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\SHYLAR~1\AppData\Local\Temp\surefire9709290967408916465\surefirebooter2651420513693628783.jar C:\Users\Shyla Ramakrishnappa\AppData\Local\Temp\surefire9709290967408916465 2023-03-17T22-28-52_339-jvmRun1 surefire11364941652514451406tmp surefire_0937370005136357045tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Shyla Ramakrishnappa\eclipse-workspace\IdealInd\target\test-classes;C:\Users\Shyla Ramakrishnappa\eclipse-workspace\IdealInd\target\classes;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.0\selenium-java-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.0\selenium-api-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.0\selenium-chrome-driver-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.0\selenium-edge-driver-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.0\selenium-firefox-driver-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.0\selenium-ie-driver-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.0\selenium-opera-driver-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.0\selenium-remote-driver-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.0\selenium-safari-driver-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.0\selenium-support-3.141.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\relevantcodes\extentreports\2.10\extentreports-2.10.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Shyla Ramakrishnappa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Shyla Ramakrishnappa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Shyla Ramakrishnappa\eclipse-workspace\IdealInd"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\SHYLAR~1\AppData\Local\Temp\surefire9709290967408916465\surefirebooter2651420513693628783.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="Shyla Ramakrishnappa"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Shyla Ramakrishnappa\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SHYLAR~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\Users\Shyla Ramakrishnappa\eclipse-workspace\IdealInd"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Users\Shyla Ramakrishnappa\AppData\Local\Microsoft\WindowsApps;C:\Users\Shyla Ramakrishnappa\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="setUp" classname="com.ideal.qa.testcases.HomePageTest" time="0.39">
+    <failure message="Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+	at com.ideal.qa.testcases.HomePageTest.setUp(HomePageTest.java:26)
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+java.io.FileNotFoundException: C:\Users\Shyla Ramakrishnappa\eclipse-workspace\IdealInd\src\main\java\com\ideal\qa\config.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at com.ideal.qa.base.TestBase.<init>(TestBase.java:26)
+	at com.ideal.qa.testcases.HomePageTest.<init>(HomePageTest.java:20)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:38)
+	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18)
+	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:178)
+	at org.testng.internal.objects.SimpleObjectDispenser.createInstance(SimpleObjectDispenser.java:87)
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:40)
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:106)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:136)
+	at org.testng.TestClass.getInstances(TestClass.java:129)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:109)
+	at org.testng.TestClass.init(TestClass.java:101)
+	at org.testng.TestClass.<init>(TestClass.java:66)
+	at org.testng.TestRunner.initMethods(TestRunner.java:463)
+	at org.testng.TestRunner.init(TestRunner.java:335)
+	at org.testng.TestRunner.init(TestRunner.java:288)
+	at org.testng.TestRunner.<init>(TestRunner.java:178)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:639)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:225)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:115)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1349)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1325)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1167)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.ideal.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.ideal.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="homePageTitleTest" classname="com.ideal.qa.testcases.HomePageTest" time="0">
+    <skipped message="Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.ideal.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.ideal.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.ideal.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="homePageLogoImageTest" classname="com.ideal.qa.testcases.HomePageTest" time="0">
+    <skipped message="Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null"/>
+  </testcase>
+  <testcase name="loginTest" classname="com.ideal.qa.testcases.HomePageTest" time="0">
+    <skipped message="Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null"/>
+  </testcase>
+</testsuite>
