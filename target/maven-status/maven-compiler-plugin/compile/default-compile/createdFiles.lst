@@ -1,0 +1,6 @@
+com\ideal\qa\base\TestBase.class
+com\ideal\qa\pages\LoginPage.class
+com\ideal\qa\pages\ProductListingPage.class
+com\ideal\qa\util\TestUtil.class
+com\ideal\qa\pages\HomePage.class
+com\ideal\qa\pages\ProductDetailPage.class
