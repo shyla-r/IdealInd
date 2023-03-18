@@ -1,0 +1,2 @@
+# IdealInd
+Smoke Test
